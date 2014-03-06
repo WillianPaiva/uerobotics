@@ -19,3 +19,9 @@ The code can be used by creating scripts such as:
 
     print(rx*r_x)
     print(sympy.trigsimp(rx*r_x) == sympy.Matrix.eye(4))
+
+For the forward model, you should produce a function:
+
+    def f_kin(theta_0, theta_1, theta_2):
+        ...
+        return (x_tip, y_tip, z_tip)
