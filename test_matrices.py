@@ -3,8 +3,7 @@ from __future__ import print_function, division
 import unittest
 import sympy
 
-import env
-from pyfwdkin import matrices
+import matrices
 
 class TestMatrices(unittest.TestCase):
 
